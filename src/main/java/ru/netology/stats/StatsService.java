@@ -9,7 +9,6 @@ public class StatsService {
 //            sum = sum + sale;
         }
         return sum;
-// return should be here!
     }
 
     public long averageSale(long[] sales) {

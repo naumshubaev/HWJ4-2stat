@@ -22,11 +22,6 @@ class StatsServiceTest {
         long[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
         StatsService service = new StatsService();
         long actualAverage = service.averageSale(sales);
-/*        int minIndex = service.minSales(sales);
-        int maxIndex = service.maxSales(sales);
-        int numberMonthsBelow = service.numberMonthsBelowAverage(sales);
-        int numberMonthsAbove = service.numberMonthsAboveAverage(sales);
-        */
         assertEquals(expected, actualAverage);
     }
     @Test
